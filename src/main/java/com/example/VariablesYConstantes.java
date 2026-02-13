@@ -6,25 +6,28 @@ public class VariablesYConstantes {
         int contador = 12;
         String nombre = "Juan";
         boolean hombre = true;
-        System.out.println(contador);
-        System.out.println(nombre);
-        System.out.println(hombre);
+
+        System.out.println(contador); // imprime 12
+        System.out.println(nombre); // imprime Juan
+        System.out.println(hombre); // imprime true
     }
 
     public static void demostrarConvencionesNombres(){
         System.out.println("Demostración de convenciones de nombres");
         String comidaPreferida = "Pizza";
         String nombreDelEstudiante = "Juan";
-        System.out.println(comidaPreferida);
-        System.out.println(nombreDelEstudiante);
+
+        System.out.println(comidaPreferida); // imprime Pizza
+        System.out.println(nombreDelEstudiante); // imprime Juan
     }
 
     public static void demostrarConstantes() {
         System.out.println("Demostración de constantes");
         final String APELLIDO = "Rodríguez";
         final double PI = 3.1416;
-        System.out.println(APELLIDO);
-        System.out.println(PI);
+
+        System.out.println(APELLIDO); // imprime Rodríguez
+        System.out.println(PI); // imprime 3.1416
     }
 }
 
