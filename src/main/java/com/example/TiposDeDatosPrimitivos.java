@@ -42,7 +42,7 @@ public class TiposDeDatosPrimitivos {
      * valoresPorDefecto: cuando declaras una variable como un atributo de una clase
      * (instancia o estática) pero no le asignas un valor manualmente,
      * Java le asigna un valor por defecto.
-     * 
+     *
      * los valores por defecto son = byte: 0 short: 0 int: 0 long: 0L float: 0.0F
      * double: 0.0D char: boolean: false
      */
