@@ -9,10 +9,22 @@ public class Main {
         VariablesYConstantes.demostrarConstantes();
 
         //TiposDeDatosPrimitivos
-        
+
         TiposDeDatosPrimitivos.demostrarEnteros();
         TiposDeDatosPrimitivos.demostrarFlotantes();
         TiposDeDatosPrimitivos.demostrarCaracteres();
         TiposDeDatosPrimitivos.demostrarBooleanos();
+
+        //ConversionDeTipos
+
+        ConversionDeTipos.demostrarCastingImplicito();
+        ConversionDeTipos.demostrarCastingExplicito();
+        ConversionDeTipos.ProblemasDePrecision();
+
+        //Operadores
+        Operadores.demostrarAritmeticos();
+        Operadores.demostrarIncrementoDecremento();
+        Operadores.demostrarRelacionales();
+        Operadores.demostrarLogicos();
     }
 }

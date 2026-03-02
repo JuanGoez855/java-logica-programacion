@@ -1,7 +1,7 @@
 package com.example;
 
 public class ConversionDeTipos {
-    public static void demostrarCastingImplicito(String[] args) {
+    public static void demostrarCastingImplicito() {
         System.out.println("Demostración de casting implícito");
         int numeroInt = 100;
         long numeroLong = numeroInt; // conversión implícita de int a long
@@ -9,7 +9,7 @@ public class ConversionDeTipos {
         System.out.println(numeroLong); // imprime 100
     }
 
-    public static void demostrarCastingExplicito(String[] args) {
+    public static void demostrarCastingExplicito() {
         System.out.println("Demostración de casting explícito");
         double numeroDouble = 3.14;
         int numeroInt = (int) numeroDouble; // conversión explícita de double a int
@@ -17,7 +17,7 @@ public class ConversionDeTipos {
         System.out.println(numeroInt); // imprime 3
     }
 
-    public static void ProblemasDePrecision(String[] args) {
+    public static void ProblemasDePrecision() {
         System.out.println("Problemas de precisión al convertir tipos");
         double numeroDouble = 123.456;
         int numeroInt = (int) numeroDouble; // conversión explícita de double a int
