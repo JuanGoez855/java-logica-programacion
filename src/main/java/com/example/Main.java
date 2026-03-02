@@ -26,5 +26,12 @@ public class Main {
         Operadores.demostrarIncrementoDecremento();
         Operadores.demostrarRelacionales();
         Operadores.demostrarLogicos();
+        Operadores.demostrarAsignacionCompuesta();
+        Operadores.demostrarOperadoresTernarios();
+
+        //EntradaDeDatos
+        EntradaDeDatos.leerVariosTipos();
+        EntradaDeDatos.leerCadenaCompleta();
+        EntradaDeDatos.manejarSaltoDeLineaPendiente();
     }
 }
