@@ -25,7 +25,7 @@ public class EntradaDeDatos {
 
     public static void leerCadenaCompleta() {
         System.out.print("Ingrese una frase completa: ");
-        
+
         String fraseCompleta = scanner.nextLine();
 
         System.out.println("Frase ingresada: " + fraseCompleta);

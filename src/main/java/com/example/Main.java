@@ -33,5 +33,12 @@ public class Main {
         EntradaDeDatos.leerVariosTipos();
         EntradaDeDatos.leerCadenaCompleta();
         EntradaDeDatos.manejarSaltoDeLineaPendiente();
+
+        //EstructurasCondicionales
+        EstructurasCondicionales.ejemploIf();
+        EstructurasCondicionales.ejemploIfElse();
+        EstructurasCondicionales.ejemploIfElseIfElse();
+        EstructurasCondicionales.ejemploSwitch();
+        EstructurasCondicionales.ejemploSwitchExpresion();
     }
 }
