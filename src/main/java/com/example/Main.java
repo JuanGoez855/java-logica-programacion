@@ -19,7 +19,7 @@ public class Main {
 
         ConversionDeTipos.demostrarCastingImplicito();
         ConversionDeTipos.demostrarCastingExplicito();
-        ConversionDeTipos.ProblemasDePrecision();
+        ConversionDeTipos.demostrarProblemasDePrecision();
 
         //Operadores
         Operadores.demostrarAritmeticos();
@@ -53,7 +53,9 @@ public class Main {
         MetodosEstaticosSimples.ejemploDeclaracionLlamada();
         MetodosEstaticosSimples.ejemploPasoParametros(10);
         MetodosEstaticosSimples.ejemploRetornoValores();
-        MetodosEstaticosSimples.ejemploSobrecarga();
+        MetodosEstaticosSimples.ejemploSobrecarga(10);
+        MetodosEstaticosSimples.ejemploSobrecarga("Hola java");
+        MetodosEstaticosSimples.ejemploSobrecarga(5, 15);
 
         //ArreglosUnidimensionales
         ArreglosUnidimensionales.declararCrearInicializar();

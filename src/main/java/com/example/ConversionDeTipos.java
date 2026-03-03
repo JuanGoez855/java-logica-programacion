@@ -17,7 +17,7 @@ public class ConversionDeTipos {
         System.out.println(numeroInt); // imprime 3
     }
 
-    public static void ProblemasDePrecision() {
+    public static void demostrarProblemasDePrecision() {
         System.out.println("Problemas de precisión al convertir tipos");
         double numeroDouble = 123.456;
         int numeroInt = (int) numeroDouble; // conversión explícita de double a int

@@ -10,7 +10,25 @@ public class MetodosEstaticosSimples {
     public static int ejemploRetornoValores() {
         return 42; // retorna un valor entero
     }
-    public static void ejemploSobrecarga() {
-        System.out.println("Ejemplo de método sobrecargado sin parámetros");
+    /**
+     *Recibe un entero.
+     */
+    public static void ejemploSobrecarga(int numero) {
+        System.out.println("Ejecutando sobrecarga con un número entero: " + numero);
+    }
+
+    /**
+     * Mismo nombre, pero recibe un String.
+     */
+    public static void ejemploSobrecarga(String texto) {
+        System.out.println("Ejecutando sobrecarga con una cadena de texto: " + texto);
+    }
+
+    /**
+     *Mismo nombre, pero recibe dos parámetros.
+     */
+    public static void ejemploSobrecarga(int a, int b) {
+        int suma = a + b;
+        System.out.println("Ejecutando sobrecarga con dos enteros. La suma es: " + suma);
     }
 }
