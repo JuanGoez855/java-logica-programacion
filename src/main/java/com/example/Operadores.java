@@ -2,6 +2,7 @@ package com.example;
 
 public class Operadores {
     public static void demostrarAritmeticos() {
+        System.out.println("Demostración de operadores aritméticos");
         int a = 10;
         int b = 5;
         System.out.println("Suma: " + (a + b));
@@ -12,6 +13,7 @@ public class Operadores {
     }
 
     public static void demostrarIncrementoDecremento() {
+        System.out.println("Demostración de operadores de incremento y decremento");
         int a = 10;
         System.out.println("Valor inicial de a: " + a);
         System.out.println("Pre-incremento: " + ++a);
@@ -25,6 +27,7 @@ public class Operadores {
     }
 
     public static void demostrarRelacionales() {
+        System.out.println("Demostración de operadores relacionales");
         int a = 10;
         int b = 5;
         System.out.println("a == b: " + (a == b));
@@ -33,6 +36,7 @@ public class Operadores {
     }
 
     public static void demostrarLogicos() {
+        System.out.println("Demostración de operadores lógicos");
         boolean a = true;
         boolean b = false;
         System.out.println("a && b: " + (a && b));
@@ -41,6 +45,7 @@ public class Operadores {
     }
     
     public static void demostrarAsignacionCompuesta() {
+        System.out.println("Demostración de operadores de asignación compuesta");
         int a = 10;
         System.out.println("Valor inicial de a: " + a);
         a += 5; // a = a + 5
@@ -54,6 +59,7 @@ public class Operadores {
     }
 
     public static void demostrarOperadoresTernarios() {
+        System.out.println("Demostración de operadores ternarios");
         int a = 10;
         int b = 5;
         String resultado = (a > b) ? "a es mayor que b" : "a no es mayor que b";

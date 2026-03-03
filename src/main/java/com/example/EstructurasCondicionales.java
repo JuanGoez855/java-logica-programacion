@@ -2,12 +2,14 @@ package com.example;
 
 public class EstructurasCondicionales {
     public static void ejemploIf() {
+        System.out.println("Ejemplo de estructura if");
         int numero = 10;
         if (numero > 0) {
             System.out.println("El número es positivo.");
         }
     }
     public static void ejemploIfElse() {
+        System.out.println("Ejemplo de estructura if-else");
         int numero = -5;
         if (numero > 0) {
             System.out.println("El número es positivo.");
@@ -16,6 +18,7 @@ public class EstructurasCondicionales {
         }
     }
     public static void ejemploIfElseIfElse() {
+        System.out.println("Ejemplo de estructura if-else-if-else");
         int numero = 0;
         if (numero > 0) {
             System.out.println("El número es positivo.");
@@ -26,6 +29,7 @@ public class EstructurasCondicionales {
         }
     }
     public static void ejemploSwitch() {
+        System.out.println("Ejemplo de estructura switch");
         int dia = 3;
         switch (dia) {
             case 1:
@@ -54,6 +58,7 @@ public class EstructurasCondicionales {
         }
     }
     public static void ejemploSwitchExpresion() {
+        System.out.println("Ejemplo de estructura switch como expresión");
         String fruta = "Manzana";
         switch (fruta) {
             case "Manzana":
