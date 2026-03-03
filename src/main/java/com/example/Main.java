@@ -54,5 +54,13 @@ public class Main {
         MetodosEstaticosSimples.ejemploPasoParametros(10);
         MetodosEstaticosSimples.ejemploRetornoValores();
         MetodosEstaticosSimples.ejemploSobrecarga();
+
+        //ArreglosUnidimensionales
+        ArreglosUnidimensionales.declararCrearInicializar();
+        ArreglosUnidimensionales.mostrarLongitud();
+        ArreglosUnidimensionales.recorrerConForClasico();
+        ArreglosUnidimensionales.recorrerConForEach();
+        ArreglosUnidimensionales.arrayComoParametroYRetorno();
+        ArreglosUnidimensionales.procesarYRetornarPares(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10});
     }
 }
