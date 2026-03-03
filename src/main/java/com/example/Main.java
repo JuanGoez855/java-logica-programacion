@@ -72,5 +72,11 @@ public class Main {
         ManipulacionCadenas.demostrarMetodosUtiles();
         ManipulacionCadenas.demostrarInmutabilidad();
         ManipulacionCadenas.usarStringBuilder();
+
+        //ManejoBasicoExcepciones
+        ManejoBasicoExcepciones.ejemploTryCatchDivision();
+        ManejoBasicoExcepciones.ejemploTryCatchInput();
+        ManejoBasicoExcepciones.ejemploBloqueFinally();
+        ManejoBasicoExcepciones.evitarCierrePrograma();
     }
 }
