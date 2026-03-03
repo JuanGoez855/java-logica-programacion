@@ -66,5 +66,11 @@ public class Main {
         //ArreglosBidimensionales
         ArreglosBidimensionales.declararCrearMatrices();
         ArreglosBidimensionales.recorrerMatriz();
+
+        //ManipulacionCadenas
+        ManipulacionCadenas.demostrarConcatenacion();
+        ManipulacionCadenas.demostrarMetodosUtiles();
+        ManipulacionCadenas.demostrarInmutabilidad();
+        ManipulacionCadenas.usarStringBuilder();
     }
 }
