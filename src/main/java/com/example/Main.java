@@ -40,5 +40,19 @@ public class Main {
         EstructurasCondicionales.ejemploIfElseIfElse();
         EstructurasCondicionales.ejemploSwitch();
         EstructurasCondicionales.ejemploSwitchExpresion();
+
+        //EstructurasDeRepeticion
+        EstructurasDeRepeticion.ejemploWhile();
+        EstructurasDeRepeticion.ejemploDoWhile();
+        EstructurasDeRepeticion.ejemploForClasico();
+        EstructurasDeRepeticion.ejemploForAnidado();
+        EstructurasDeRepeticion.ejemploBreakContinue();
+        EstructurasDeRepeticion.ejemploEtiquetas();
+
+        //MetodosEstaticosSimples
+        MetodosEstaticosSimples.ejemploDeclaracionLlamada();
+        MetodosEstaticosSimples.ejemploPasoParametros(10);
+        MetodosEstaticosSimples.ejemploRetornoValores();
+        MetodosEstaticosSimples.ejemploSobrecarga();
     }
 }
